@@ -9,6 +9,7 @@
   "author": "Marcos Jr",
   "license": "ISC",
   "dependencies": {
+    "big-integer": "^1.6.51",
     "fs": "^0.0.1-security",
     "node": "^20.3.1"
   }

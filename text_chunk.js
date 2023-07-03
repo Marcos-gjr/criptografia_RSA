@@ -7,7 +7,7 @@ module.exports = class TextChunk {
     }
   }
 
-  bigIntToText(n) {
+bigIntToText(n) {
     let big256 = BigInt("256");
     let big0 = BigInt("0");
     let strVal = "";
