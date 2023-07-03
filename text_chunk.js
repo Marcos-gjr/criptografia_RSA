@@ -43,6 +43,7 @@ bigIntToText(n) {
   }
 
   static blockSize(n) {
+    n = BigInt(n)
     const big1 = BigInt("1");
     const big2 = BigInt("2");
     let bSize = 0;
